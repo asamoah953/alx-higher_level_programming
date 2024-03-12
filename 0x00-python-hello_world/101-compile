@@ -1,2 +1,4 @@
 #!/usr/bin/python
-python3 -m compileall -b $PYFILE i
+export PYFILE="my_main.py"
+./compile_python_script.sh
+
