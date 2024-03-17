@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-import sys
 
-if __name__== "__main-__":
+if __name__== "__main__":
+
+    import sys
 
     s = len(sys.argv) - 1
 
@@ -15,12 +16,12 @@ if __name__== "__main-__":
         print("{} arguments:".format(s))
 
     else:
-        print("{} arguments:")
+        print("{} arguments:".format(s))
 
     if s >= 1:
         s = 0
         for arg in h:
-            if i != 0:
+            if s != 0:
                 print("{}: {}".format(s,arg))
 
-                s += 1
+            s += 1
