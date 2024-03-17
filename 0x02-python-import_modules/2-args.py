@@ -1,36 +1,26 @@
 #!/usr/bin/python3
 
 import sys
-if __name__ == "__main__":
 
-    wns = "argument:"
-    arg1 = "Hello"
-    arg = sys.argv
-    len1 = len(sys.argv)
-    len2 = len(sys.argv) - 1
-    
-    i =2
-    if i > 1:
-        
-        
+if __name__== "__main-__":
 
-        ws = wns + "s:"
-    i =0    
-    if( i == 0):
-        print("{} {}.".format(i,wns))
+    s = len(sys.argv) - 1
 
-    for i in range(1, len1):
+    h = sys.argv
 
-        if (i == 1):
-            print("{} {}".format(i,wns))
-            print("{}: {}".format(i,arg1))
+    if s ==0:
+        print("{} arguments.".format(s))
 
-        else:
-             while(i < len1):
-                 ++i
-                 print("{} {}".format(len2,ws))
-                 print("{}: {}".format(i,arg))
-                 ++arg
+    elif s == 1:
+        print("{} arguments:".format(s))
 
+    else:
+        print("{} arguments:")
 
+    if s >= 1:
+        s = 0
+        for arg in h:
+            if i != 0:
+                print("{}: {}".format(s,arg))
 
+                s += 1
