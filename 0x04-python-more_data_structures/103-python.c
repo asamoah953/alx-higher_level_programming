@@ -1,8 +1,4 @@
 #include <Python.h>
-#include <studio.h>
-#include <object.h>
-#include <listobject.h>
-#include <bytesobject.h>
 
 void print_python_list(PyObject *p) {
     if (!PyList_Check(p)) {
