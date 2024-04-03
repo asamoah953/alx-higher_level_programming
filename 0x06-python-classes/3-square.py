@@ -3,7 +3,8 @@
 
 class Square:
     """
-    Class that defines properties of square by: (based on 2-square.py).
+    This is a class that defines properties of square by: (based on 2-square.py).
+    """
 
         def __init__(self, size=0):
         """Creates new instances of square.
