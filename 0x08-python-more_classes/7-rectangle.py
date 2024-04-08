@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""my alx project on rectangle.
+"""
+
+
 class Rectangle:
     """The class for printing the dimensions of the rectangle.
 
